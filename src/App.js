@@ -1,4 +1,5 @@
 import { Navbar, Footer } from "./components/export.js";
+import { Classes } from "./components/lectures/export.js";
 import logo from "./logo.svg";
 import "./App.scss";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <div className="App">
+        <Classes />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
