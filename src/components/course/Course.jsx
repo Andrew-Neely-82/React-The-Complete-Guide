@@ -1,4 +1,4 @@
-import { Classes, Spread, Destructuring } from "../lectures/export";
+import { Classes, Spread, Destructuring, DataTypes } from "../lectures/export";
 
 const Course = () => {
   return (
@@ -6,6 +6,7 @@ const Course = () => {
       <Classes />
       <Spread />
       <Destructuring />
+      <DataTypes />
     </div>
   );
 };

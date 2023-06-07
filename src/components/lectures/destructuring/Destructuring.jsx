@@ -6,7 +6,7 @@ const Destructuring = () => {
   console.log(`${num2} from destructuring lesson`);
 
   return (
-    <div className="Destructuring_">
+    <div className="Destructuring_" id="destructuring_">
       <h1>Destructuring</h1>
       <code>
         {`
