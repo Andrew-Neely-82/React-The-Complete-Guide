@@ -3,6 +3,7 @@ import { Classes, Spread, Destructuring, DataTypes, ArrayMethods } from "../lect
 const Course = () => {
   return (
     <div>
+      {/* JS Refresher */}
       <Classes />
       <Spread />
       <Destructuring />
